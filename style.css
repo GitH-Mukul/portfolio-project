@@ -1,0 +1,215 @@
+
+
+html {
+    font-size: 110%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    color: #394c4a;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+.header-background {
+    background: linear-gradient(rgba(255, 254, 253, 0.7), rgba(255, 254, 253, 0.9)), 
+                url("https://i.imgur.com/TAn6FWz.jpg") center center fixed;
+    background-size: auto;
+    text-align: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-para{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.about-header {
+    background: linear-gradient(rgba(255, 254, 253, 0.7), rgba(255, 254, 253, 0.9)), 
+                url("https://i.imgur.com/TAn6FWz.jpg") center center fixed;
+    background-size: auto;
+    text-align: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-header{
+    background: linear-gradient(rgba(255, 254, 253, 0.7), rgba(255, 254, 253, 0.9)), 
+                url("https://i.imgur.com/TAn6FWz.jpg") center center fixed;
+    background-size: auto;
+    text-align: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 25px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    padding-right: 40px;
+    padding-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Unica One', cursive;
+    font-size: 1.5rem;
+}
+
+.header-content img {
+    max-width: 250px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.header-content h1, .header-content p {
+    margin: 0.6rem 0;
+    font-family: 'Unica One', cursive;
+
+}
+
+#about {
+    background-color: #ffffff; 
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 40px;
+    border-radius: 0.5%;
+    text-align: center;
+}
+
+.profile-photo {
+    max-width: 20%;
+    height: auto; 
+    border-radius: 50%; 
+}
+
+
+.split-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px; 
+
+    
+}
+
+.split-section > div {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.education {
+    background-color: #f1f1f1; 
+}
+
+.projects {
+    background-color: #e7f5ff; 
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px; 
+    margin-left: 10px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 0;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px; 
+}
+
+
+.project {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    display: inline-block;
+    line-height: 200px;
+}
+
+#contact {
+    background-color: #3a6a7f; 
+    color: white;
+    padding: 15px;
+    border-radius: 0.5%;
+    text-align: center;
+}
+
+.btn {
+    padding: 12px 36px;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+     background-color: #0fbfbf; 
+
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Additional Styles */
+h2 {
+    color: #333;
+    font-family: 'Unica One', cursive;
+    font-size: 2.3rem;
+}
+
+a {
+    color: #29a598;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #208479;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+  .profile-photo {
+        width: 50%; 
+        margin: 0 auto; 
+    }
+}
